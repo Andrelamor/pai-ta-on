@@ -44,3 +44,13 @@ print(your_name + ' likes ' + your_color)
 
 # Type conversion
 # https://www.youtube.com/watch?v=_uQrJ0TkZlc&t=1366s
+
+birth_year = input('birth year:  ')
+print(type(birth_year))
+age = 2022 - int(birth_year)
+print(age)
+print(type(age))
+
+weight_oz = input('What is your weight (in pounds):  ')
+weight_kg = int(weight_oz) / 2.2046
+print('Your weight in kilos is: ' + str(round(weight_kg)))
