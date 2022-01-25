@@ -4,7 +4,7 @@ What is a variable?
 
 What are the primitive built-in types in Python?
 
-	- When should we use “”” (tripe quotes) to define strings?
+When should we use “”” (tripe quotes) to define strings?
 
 Assuming (name = “John Smith”), what does name[1] return?
 
@@ -16,8 +16,7 @@ How to get the length of name?
 
 	- What are the escape sequences in Python?
 
-	- What is the result of f“{2+2}+{10%3}”?
-
+What is the result of f“{2+2}+{10%3}”?
 
 	- Given (name = “john smith”), what will name.title() return?
 
@@ -25,13 +24,13 @@ How to get the length of name?
 
 What will name.find(“Smith”) return?
 
-	- What will be the value of name after we call name.replace(“j”, “k”)?
+- What will be the value of name after we call name.replace(“j”, “k”)?
 
 How can we check to see if name contains “John”?
 
 What are the 3 types of numbers in Python?
 
-* [checking answers](https://github.com/Andrelamor/pai-ta-on/blob/main/app.py#L19)
+* [checking answers](https://github.com/Andrelamor/pai-ta-on/blob/main/1-variables/app.py#L19)
 
 #### Variáveis proibidas
 <reservadas>
