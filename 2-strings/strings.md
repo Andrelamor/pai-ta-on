@@ -154,7 +154,7 @@ So, let's define another variable called _msg_, and set this to a formatted stri
 A formatted string is one that is prefixed with and _f_.
 
 ````python
-msg = f'{first_name} [{last_name}] is a coder'
+msg = f'{first_name} [{last_name}] was a singer'
 print(msg)
 ````
 With these curly braces, we're defining place holders or holes in our string, and when we run our program these holes will be filled with the value of our variables.
