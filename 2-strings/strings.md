@@ -165,6 +165,81 @@ With this formatted string we can easily visualize what the output looks like.
 So, to define formatted strings, prefix it with an _f_ and add curly braces to dynamically insert values into your strings.
 
 
-
-
 # String Methods
+
+To calculate the number of characters in the string below, we can use a **_built in_ function** called _len_:
+````python
+course = 'Python for Beginners'
+print(len(course))
+````
+So, as you can see, we have 20 characters in this string.
+This is particularly useful when you receive input from the user.
+For example, you have noticed that when you fill out a form online, each input field quite often has a limit.
+For example, you might have 50 characters for your name, so using this lenght function we can enforce a limit on the number of characters in an input field.
+If the user types in moe characters than we allow, we can display an error.
+
+Now, this _len_ function is another function built into Python, it's a general purpose function, so it's not limites to couting the number of characters in a string.
+We can use this function to count the number of items in a list.
+
+Now we also have functions specifically for strings. 
+We refer to these functions as **methods** (object oriented programming style).
+To access these functions, we use '.' operator: 
+
+- for converting all these characters to upper case
+````python
+course = 'Python for Beginners'
+print(course.upper())
+````
+
+- for converting all to lower case
+````python
+print(course.lower())
+````
+Note that these methods do not change the original strings; in fact, they create new ones and return its.
+So, if we print out our course variable right after we call the _upper_ method, we can see that our course variable still has it's original form: 
+````python
+course = 'Python for Beginners'
+print(course.upper())
+print(course)
+````
+Now if you want to find a character or a sequence of characters in a string, you can use the _find_ method.
+This will return the index of the first occurrence of character 'o':
+````python
+course = 'Python for Beginners'
+print(course.find('o'))
+````
+Note that the _find_ method is sensitive to lower case and upper case characters.
+For example, if we pass the upper character 'O', it returns '-1' because we don't have an upper case in this string:
+````python
+course = 'Python for Beginners'
+print(course.find('O'))
+````
+We can also pass a sequence of characters:
+````python
+course = 'Python for Beginners'
+print(course.find('Beginners'))
+````
+We get '11', because the word starts woth index 11.
+
+We also have a method for replacing a character or a sequence of characters: replace.
+````python
+course = 'Python for Beginners'
+print(course.replace('Beginners', 'Managers'))
+````
+The same method can be use to replace a single one character:
+````python
+course = 'Python for Beginners'
+print(course.replace('B', 'T'))
+````
+This method, like the _find_, is case sensitive.
+
+There are times you want to chek the existence of a character or sequence of characters in your string.
+In those situations, you use the _in_ operator.
+So let's say you want to know if this string contains the word 'Python':
+````python
+print('Python' in course)
+````
+This is a boolean expression and get true or false. An it is another case sensitive method:
+````python
+print('python' in course)
+````
