@@ -5,7 +5,8 @@ So I've defined this course variable and set it to Python for beginners:
 ````python
 course = 'Python for Beginners'
 ````
-now earlier I told you could use both single and double quotes to define a string, but there are times you have to use a specific form, otherwise you're going to run into issues.
+now earlier I told you could use both single and double quotes to define a string, but there are times you have to use a specific form, otherwise you're going to run into issues. 
+
 Here's an example: imagine you wanted to change this string into _Python's course for Beginners_.
 So we want to add an apostrophe, lke this:
 ````python
@@ -23,8 +24,9 @@ Now you can see error is gone, so if you print _course_
 ````python
 print(course) 
 ````
-we see _Python's course for Beginners_
-Beautiful. Now let's say we don't want this apostrophe here, so we have _"Python for Begginers"_, but we want to put _Beginners_ in double quotes.
+we see _Python's course for Beginners_.
+
+Now let's say we don't want this apostrophe here, so we have _"Python for Begginers"_, but we want to put _Beginners_ in double quotes.
 Once again, if you add a double quote here, Python interpreter gets confused because it assumes the second double quote indicates that end of the string, so it doesn't know what these characters are:
 ````python
 course = "Python for "Beginners"
