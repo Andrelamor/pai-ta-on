@@ -124,4 +124,47 @@ What do you think we're going to see on the terminal?
 
 # Formatted Strings
 
+Formatted strings are particularly useful in situations where you dynamically generate some text with your variables.
+Let's say we have two variables:
+````python
+first_name = 'Jane'
+last_name = 'Joplin'
+````
+So let's say with these two variables, we want to generate some text like this:
+````python
+first_name = 'Jane'
+last_name = 'Joplin'
+Jane [Joplin] was a singer
+````
+How we do this? 
+We define another variable like _message_, add the first name and concatenate this with a string that contains a space and a sqare bracket.
+Next, we need to add a last name, then we need to add a string that contains the closing square brackets followed by _was a singer_
+````python
+first_name = 'Jane'
+last_name = 'Joplin'
+message = first_name + ' [' + last_name + '] was a singer'
+print(message)
+````
+While this approach perfectly works, it's not ideal because as our text gets more complicated it becomes harder to visualize the output.
+So someone else reading this code, they have to visualize all the string concatenations in their head. 
+**This is where we use formatted strings, they make it easier for us to visualize the output.**
+
+So, let's define another variable called _msg_, and set this to a formatted string.
+
+A formatted string is one that is prefixed with and _f_.
+
+````python
+msg = f'{first_name} [{last_name}] is a coder'
+print(msg)
+````
+With these curly braces, we're defining place holders or holes in our string, and when we run our program these holes will be filled with the value of our variables.
+So here we have 2 placeholders.
+
+With this formatted string we can easily visualize what the output looks like.
+
+So, to define formatted strings, prefix it with an _f_ and add curly braces to dynamically insert values into your strings.
+
+
+
+
 # String Methods
