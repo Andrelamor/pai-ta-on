@@ -151,7 +151,7 @@ So someone else reading this code, they have to visualize all the string concate
 
 So, let's define another variable called _msg_, and set this to a formatted string.
 
-A formatted string is one that is prefixed with and _f_.
+A formatted string is one that is prefixed with a _f_.
 
 ````python
 msg = f'{first_name} [{last_name}] was a singer'
