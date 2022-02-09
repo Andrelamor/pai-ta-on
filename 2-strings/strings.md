@@ -178,7 +178,7 @@ For example, you have noticed that when you fill out a form online, each input f
 For example, you might have 50 characters for your name, so using this lenght function we can enforce a limit on the number of characters in an input field.
 If the user types in moe characters than we allow, we can display an error.
 
-Now, this _len_ function is another function built into Python, it's a general purpose function, so it's not limites to couting the number of characters in a string.
+Now, this _len_ function is another function built into Python, it's a general purpose function, so it's not limited to couting the number of characters in a string.
 We can use this function to count the number of items in a list.
 
 Now we also have functions specifically for strings. 
