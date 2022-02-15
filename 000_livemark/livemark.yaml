@@ -23,6 +23,7 @@ pages:
     - name: Python Essential
       items:
         - path: 003_python_essentials/001_variables/README
+        - path: 003_python_essentials/002_strings/README
 
 links:
   items:
