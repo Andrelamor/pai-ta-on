@@ -24,6 +24,7 @@ pages:
       items:
         - path: 003_python_essentials/001_variables/README
         - path: 003_python_essentials/002_strings/README
+        - path: 003_python_essentials/002_strings/LEIAME
 
 links:
   items:
