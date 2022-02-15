@@ -122,7 +122,7 @@ print(course[1:-1])
 ````
 What do you think we're going to see on the terminal?
 
-# Formatted Strings
+## Formatted Strings
 
 Formatted strings are particularly useful in situations where you dynamically generate some text with your variables.
 Let's say we have two variables:
@@ -165,7 +165,7 @@ With this formatted string we can easily visualize what the output looks like.
 So, to define formatted strings, prefix it with an _f_ and add curly braces to dynamically insert values into your strings.
 
 
-# String Methods
+## String Methods
 
 To calculate the number of characters in the string below, we can use a **_built in_ function** called _len_:
 ````python
