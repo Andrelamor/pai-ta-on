@@ -5,16 +5,6 @@
 ## dataset create
 
 ---
-def create(ckan_host, ckan_key, datapackage, stop, metadata)
----
-
-- [ckan_host](https://github.com/dados-mg/dpckan/blob/c8de5a8b3c5c1e6b9c47b8feff1e4cbf3189494d/dpckan/create_dataset.py#L18)
-
-- [ckan_key](https://github.com/dados-mg/dpckan/blob/c8de5a8b3c5c1e6b9c47b8feff1e4cbf3189494d/dpckan/create_dataset.py#L23)
-
-- [datapackage](https://github.com/dados-mg/dpckan/blob/c8de5a8b3c5c1e6b9c47b8feff1e4cbf3189494d/dpckan/create_dataset.py#L27)
-
----
 
 run_dataset_validations(ckan_instance, local_datapackage)
 
